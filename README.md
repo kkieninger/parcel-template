@@ -8,7 +8,7 @@ and pre-configured for deployments to [GitHub Pages](https://pages.github.com/).
 This repository assumes you have Node.js running locally on your computer. This repository was built
 using Node `v16`, though it is likely to work on earlier version of Node. You can determine which
 version of Node you are running by running `node -v` in your terminal. If you have an earlier version
-and would like to upgrade, (Node Version Manager)[https://github.com/nvm-sh/nvm] is a highly
+and would like to upgrade, [NVM - Node Version Manager](https://github.com/nvm-sh/nvm) is a highly
 recommended configuration.
 
 ### GitHub Personal Access Token (PAT)
@@ -92,12 +92,12 @@ This project comes bootstrapped with the following simple example HTML project s
 and cross-browser discrepancies. Feel free to remove it or completely change the file structure
 entirely if it does not serve your purpose, but please note that major changes to the directory
 structure may require you to update the `dev` and `build` commands located in the
-[package](./package.json) file.
+[package.json](./package.json) file.
 
 ## GitHub Actions / Continuous Integration (CI)
 
-This project also comes bootstrapped with a series of automated GitHub Actions workflows that will
-run the following commands under the respective circumstances:
+This project also comes bootstrapped with a series of automated [GitHub Actions](https://github.com/features/actions)
+workflows that will run the following commands under their respective circumstances:
 
 ### Pull Requests
 
