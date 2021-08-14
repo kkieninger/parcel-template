@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./src/*",
+    "build": "parcel build ./src/* --no-minify --public-url ./",
     "dev": "parcel ./src/* -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
